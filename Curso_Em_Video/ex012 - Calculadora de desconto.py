@@ -1,0 +1,5 @@
+print('{:.^40}'.format('EX012'))
+preco = int(input('Informe o preço do produto: '))
+desconto = int(input('Informe quantos porcento de desconto que devem ser calculados no preço do produto: '))
+valorTotal = preco - (preco * desconto / 100)
+print('O valor original do produto era R${:.2f}, e com o desconto de {}% fica R${:.2f}'.format(preco, desconto, valorTotal))
